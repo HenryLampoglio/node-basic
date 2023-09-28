@@ -1,4 +1,4 @@
-POST http://localhost:8080/videos
+POST http://localhost:3333/videos
 Content-Type: application/json
 
 {
@@ -8,10 +8,10 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8080/videos
+GET http://localhost:3333/videos
 
 ###
-PUT http://localhost:8080/videos/8741e7a2-d967-475f-85df-8cca572c209d
+PUT http://localhost:3333/videos/8741e7a2-d967-475f-85df-8cca572c209d
 Content-Type: application/json
 
 {
@@ -22,4 +22,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:8080/videos/8741e7a2-d967-475f-85df-8cca572c209d
+DELETE http://localhost:3333/videos/8741e7a2-d967-475f-85df-8cca572c209d
